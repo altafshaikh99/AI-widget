@@ -1,0 +1,41 @@
+<div class="add-new-utterance">
+    <h3>Add a new utterance</h3>
+    <p>Create an intent and multiple utterancesto let Instinct AI answers automatically</p>
+    <button type="button" (click)="openIntentModel()"><i class="bi bi-plus"></i>Add intent</button>
+</div>
+<div class="divider"></div>
+<div class="filter-sec">
+    <div class="title">
+        <h3>Insights</h3>
+        <button type="button"><i class="bi bi-x"></i> <span>|</span> <span>Clear all</span></button>
+    </div>
+    <div class="sort">
+        <p>Sort by</p>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Priority</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="card" *ngFor="let data of cards.crd">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="batch">
+                <button type="button" [class]="data.class">{{data.btn}}</button>
+            </div>
+            <div class="title">{{data.title}}</div>
+            <div class="caption">{{data.caption}}</div>
+        </div>
+        <div class="col-md-6 d-flex align-items-end justify-content-end p-0">
+            <button mat-button [matMenuTriggerFor]="menu" id="menu"><i class="bi bi-file-earmark-plus"></i></button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="openFaqModel()">Map to existing reply</button>
+                <button mat-menu-item (click)="openFaqModel()">Add reply</button>
+            </mat-menu>
+
+        </div>
+    </div>
+</div>

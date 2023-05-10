@@ -1,0 +1,140 @@
+.add-new-utterance {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-new-utterance h3 {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.add-new-utterance p {
+    font-size: 0.9vmax;
+    color: #777;
+    margin: 0;
+    line-height: 1.1vmax;
+    font-weight: 400;
+}
+
+.add-new-utterance button {
+    padding: 0.5vmax 1.5vmax 0.5vmax 1vmax;
+    background: var(--primary-color);
+    color: #fff;
+    border: 0;
+    width: fit-content;
+    border-radius: 0.1vmax;
+    margin-top: 1vmax;
+    font-size: 1vmax;
+}
+
+.filter-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-sec .title {
+    display: flex;
+    height: fit-content;
+    gap: 1vmax;
+    align-items: baseline;
+}
+
+.filter-sec .title h3 {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.filter-sec .title button {
+    font-size: 0.8vmax;
+    color: #000;
+    margin: 0;
+    line-height: 1.1vmax;
+    font-weight: 400;
+    background: transparent;
+    border: 0.1vmax solid #000;
+    padding: 0.1vmax 0.5vmax;
+    display: flex;
+    width: 5vmax;
+    justify-content: space-between;
+}
+
+.filter-sec .sort {
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+}
+
+.filter-sec .sort p {
+    font-size: 1vmax;
+    color: #777;
+    margin: 0;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.filter-sec .sort select {
+    font-size: 1.1vmax;
+    color: #555;
+    border: 0.1vmax solid #777;
+    padding: 0 1vmax;
+    width: 9vmax;
+}
+
+.btn-without-outline-danger {
+    background: rgba(220, 53, 69, 0.1);
+    color: rgba(220, 53, 69, 1);
+    font-weight: 600;
+    font-size: 0.8vmax;
+    padding: 0.1vmax 0.5vmax;
+    margin: 0.4vmax 0vmax;
+    margin-top: 0;
+}
+
+.btn-without-outline-warning {
+    background: rgb(255, 193, 7, 0.1);
+    color: rgb(255, 193, 7, 1);
+    font-weight: 600;
+    font-size: 0.8vmax;
+    padding: 0.1vmax 0.5vmax;
+    margin: 0.4vmax 0vmax;
+    margin-top: 0;
+}
+
+.btn-without-outline-primary {
+    background: rgb(13, 110, 253, 0.1);
+    color: rgb(13, 110, 253, 1);
+    font-weight: 600;
+    font-size: 0.8vmax;
+    padding: 0.1vmax 0.5vmax;
+    margin: 0.4vmax 0vmax;
+    margin-top: 0;
+}
+
+.card {
+    padding: 1vmax;
+    margin: 0.5vmax 0;
+    box-shadow: 0px 0px 0.5vmax rgba(0, 0, 0, 0.1);
+}
+
+.card #menu {
+    height: min-content;
+}
+
+.card .title {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.card .caption {
+    font-size: 0.9vmax;
+    color: #777;
+    margin: 0;
+    line-height: 1.1vmax;
+    font-weight: 400;
+}

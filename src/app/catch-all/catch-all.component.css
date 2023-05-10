@@ -1,0 +1,37 @@
+.add-new-utterance {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-new-utterance h3 {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.add-new-utterance p {
+    font-size: 0.9vmax;
+    color: #777;
+    margin: 0;
+    line-height: 1.1vmax;
+    font-weight: 400;
+}
+
+select {
+    font-size: 1.1vmax;
+    color: #555;
+    border: 0.1vmax solid #777;
+    padding: 0 1vmax;
+    width: 12vmax;
+}
+
+.btn-without-outline {
+    background: rgb(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 0.9vmax;
+    padding: 0.2vmax 0.5vmax;
+    width: fit-content;
+    margin-top: 0.5vmax;
+}

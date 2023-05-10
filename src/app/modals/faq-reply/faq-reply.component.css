@@ -1,0 +1,121 @@
+.add-new-utterance {
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax;
+}
+
+.add-new-utterance h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.add-new-utterance p {
+    font-size: 11px;
+    color: #777;
+    margin: 0;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+select {
+    font-size: 14px;
+    color: #555;
+    border: 0.1vmax solid #777;
+    padding: 0 1vmax;
+    width: 12vmax;
+}
+
+.btn-without-outline {
+    background: rgb(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 0.9vmax;
+    padding: 0.2vmax 0.5vmax;
+    width: fit-content;
+    margin-top: 0.5vmax;
+    display: block;
+}
+
+button.create {
+    padding: 0.5vmax 1vmax;
+    background: var(--primary-color);
+    color: #fff;
+    border: 0;
+    width: fit-content;
+    border-radius: 0.1vmax;
+    margin: 1vmax;
+    margin-bottom: 0;
+    font-size: 1.3vmax;
+}
+
+.search-box {
+    border: 0.1vmax solid #000;
+    margin: 1vmax 0;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2vmax;
+    width: fit-content;
+    padding-right: 1vmax;
+}
+
+.search-box i {
+    font-size: 1vmax;
+}
+
+.search-box input {
+    border: none;
+    width: 19vmax;
+    margin-left: 0.5vmax;
+    padding-bottom: 0.3vmax;
+}
+
+.btn-without-outline-warning {
+    background: rgb(255, 193, 7, 0.1);
+    color: rgb(255, 193, 7, 1);
+    font-weight: 600;
+    font-size: 0.8vmax;
+    padding: 0.1vmax 0.5vmax;
+    margin: 0.4vmax 0vmax;
+    margin-top: 0;
+}
+
+.btn-without-outline-danger {
+    background: rgba(220, 53, 69, 0.1);
+    color: rgba(220, 53, 69, 1);
+    font-weight: 600;
+    font-size: 0.8vmax;
+    padding: 0.1vmax 0.5vmax;
+    margin: 0.4vmax 0vmax;
+    margin-top: 0;
+}
+
+button.green {
+    padding: 0.5vmax 1.5vmax 0.5vmax 1vmax;
+    background: var(--primary-color);
+    color: #fff;
+    border: 0;
+    width: fit-content;
+    border-radius: 0.1vmax;
+    margin-top: 1vmax;
+    font-size: 1vmax;
+}
+
+button.showmore {
+    color: var(--primary-color);
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    font-size: 1vmax;
+}
+
+.search-box input::placeholder {
+    font-size: 1vmax;
+}
+
+.search-box input:focus-visible,
+.search-box input:focus {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,68 @@
+{
+    "crd": [
+        {
+            "btn": "Unanswered",
+            "class": "btn btn-without-outline-danger",
+            "title": "Do you deal in real estate",
+            "caption": "Ask 32 times last week"
+        },
+        {
+            "btn": "Improve coverage",
+            "class": "btn btn-without-outline-warning",
+            "title": "Do you deal in real estate",
+            "caption": "Ask 32 times last week"
+        },
+        {
+            "btn": "Underperforming",
+            "class": "btn btn-without-outline-primary",
+            "title": "Do you deal in real estate",
+            "caption": "Ask 32 times last week"
+        }
+    ],
+    "tabsData": [
+        {
+            "title": "Greetings",
+            "id": "one",
+            "target": "#one",
+            "list": [
+                "Hi there",
+                "How are you doing?",
+                "Nice to see you",
+                "Is there any way we can help you?"
+            ]
+        },
+        {
+            "title": "Bye",
+            "id": "two",
+            "target": "#two",
+            "list": [
+                "Hi there",
+                "How are you doing?",
+                "Nice to see you",
+                "Is there any way we can help you?"
+            ]
+        },
+        {
+            "title": "Office hours",
+            "id": "three",
+            "target": "#three",
+            "list": [
+                "Hi there",
+                "How are you doing?",
+                "Nice to see you",
+                "Is there any way we can help you?"
+            ]
+        },
+        {
+            "title": "Location",
+            "id": "four",
+            "target": "#four",
+            "list": [
+                "Hi there",
+                "How are you doing?",
+                "Nice to see you",
+                "Is there any way we can help you?"
+            ]
+        }
+    ]
+}

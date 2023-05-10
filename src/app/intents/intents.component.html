@@ -1,0 +1,42 @@
+<div class="add-new-utterance">
+    <h3>Add a new utterance</h3>
+    <p>Create an intent and multiple utterancesto let Instinct AI answers automatically</p>
+</div>
+<div class="box">
+    <div class="top">
+        <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="text" name="" id="" placeholder="Serach intent or utternance">
+        </div>
+        <button type="button" (click)="openIntentModel()"><i class="bi bi-plus"></i>Add intent</button>
+    </div>
+    <div class="title">
+        <h3>Intent</h3>
+    </div>
+    <div class="cards">
+        <div class="accordion " id="accordionPanelsStayOpenExample">
+            <div class="accordion-item" *ngFor="let tab of data.tabsData">
+                <h2 class="">
+                    <button class="collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="tab.target"
+                        aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                        {{tab.title}}
+                    </button>
+                    <button [matMenuTriggerFor]="menu"><i class="bi bi-three-dots-vertical"></i></button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item><i class="bi bi-trash mx-2"></i>Delete</button>
+                    </mat-menu>
+                </h2>
+                <div [id]="tab.id" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li *ngFor="let d of tab.list">{{d}}</li>
+                            <li><button type="button" class="btn btn-without-outline mt-2">+ Add another
+                                    variation</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

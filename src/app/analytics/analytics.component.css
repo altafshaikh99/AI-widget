@@ -1,0 +1,117 @@
+.add-new-utterance {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-new-utterance h3 {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-bottom: 0.5vmax;
+}
+
+.add-new-utterance p {
+    font-size: 0.9vmax;
+    color: #777;
+    margin: 0;
+    line-height: 1.1vmax;
+    font-weight: 400;
+}
+
+.box .top button {
+    padding: 0.5vmax 1.5vmax 0.5vmax 1vmax;
+    background: var(--primary-color);
+    color: #fff;
+    border: 0;
+    width: fit-content;
+    border-radius: 0.1vmax;
+    margin: 1vmax;
+    font-size: 1vmax;
+}
+
+.box {
+    border: 0.1vmax solid rgba(0, 0, 0, 0.5);
+    margin: 1vmax 0;
+}
+
+.box .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1vmax solid #000;
+}
+
+.box .top .search-box {
+    border: 0.1vmax solid #000;
+    margin: 1vmax;
+    padding-left: 0.5vmax;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2vmax;
+    padding-right: 0.1vmax;
+}
+
+.box .top .search-box i {
+    font-size: 1vmax;
+}
+
+.box .top .search-box input {
+    border: none;
+    width: 19vmax;
+    margin-left: 0.5vmax;
+    padding-bottom: 0.3vmax;
+}
+
+.box .top .search-box input::placeholder {
+    font-size: 1vmax;
+}
+
+.box .top .search-box input:focus-visible,
+.box .top .search-box input:focus {
+    border: none;
+    outline: none;
+}
+
+.box .title {
+    background: rgba(0, 130, 107, 0.2);
+    border-bottom: 0.1vmax solid #555;
+    height: 4vmax;
+}
+
+.box .title h3 {
+    font-size: 1.1vmax;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-size: 1vmax;
+}
+
+tbody {
+    height: 10vmax;
+}
+
+tbody th,
+.intend {
+    text-align: left;
+    text-align: left;
+    padding-left: 2vmax;
+}
+
+.danger {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.warn {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.success {
+    color: #198754;
+    font-weight: bold;
+}
